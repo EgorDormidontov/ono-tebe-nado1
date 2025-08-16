@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 293px;
+  height: 280px;
 }
 .navigation {
   display: flex;
@@ -227,11 +227,10 @@
   font-size: 20px;  
 }
 
-
 /* ФУТЕР */
 .footer {
   margin-top: 181px;
-  height: 180px;
+  height: 140px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
