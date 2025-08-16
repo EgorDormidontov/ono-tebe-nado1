@@ -7,25 +7,25 @@
 }
 .navigation {
   display: flex;
-  list-style-type: circle;
+  gap: 30px;
   padding-left: 50px;
   font-size: 18px;
-  gap: 30px;
+  list-style-type: circle;
 }
 
 .image_header {
   position: relative;
-  margin-right: 150px;
-  height: 107px;
   width: 155px;
+  height: 107px;
+  margin-right: 150px;
 }
 
 .basic_info {
   width:240px;
-  list-style: none;
   margin-right: 50px;
   font-size: 18px;
   line-height: auto;
+  list-style: none;
 }
 
 
@@ -35,8 +35,8 @@
 }
 
 .link_far_underline {
-  text-decoration: none;
   border-bottom: 1.5px solid black;
+  text-decoration: none;
 }
 
 
@@ -50,29 +50,29 @@
 
  .overlay {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 } 
 
 .second_screen_background_photo {
   position: absolute;
+  width: 100%;
+  height: 100%;
   background-image: url(/images/cover.jpg);
   background-size: cover;
-  height: 100%;
-  width: 100%;
 }
 
 
 .second_screen_text {
   position: absolute;
+  z-index: 2;
+  color: white;
+  font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: white;
-  z-index: 2;
 }
 
 .ono {
@@ -94,36 +94,36 @@
 
 .text_second_screen_over_betbutton {
   position: absolute;
-  color: white;
-  font-size: 22px;
-  font-weight: lighter;
-  margin-left: 50px;
-  text-transform: uppercase;
-  word-spacing: 30px;
   top:670px;
   z-index: 2;
+  margin-left: 50px;
+  color: white;
+  font-weight: lighter;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 30px;
 }
 
 .betbutton {
   position: absolute;
-  z-index: 2;
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  width: 256px;
-  height: 51px;
-  text-transform: uppercase;
-  font-size: 22px;
   top: 665px;
   left: 795px;
+  z-index: 2;
+  width: 256px;
+  height: 51px;
+  border: 2px solid white;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 
 /* ГЛАВНАЯ СЕКЦИЯ */
 .main_section_header {
-  font-size: 40px;
-  margin-left: 65px;
   margin-top: 190px;
+  margin-left: 65px;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -135,16 +135,16 @@
   margin-top: 27px;
 }
 .card {
-  height: 600px;
   width: 334px;
-  background-size: cover;
+  height: 600px;
   background-position: center;
+  background-size: cover;
 }
 
 .card_conteiner {
   position: relative;
-  height: 600px;
   width: 334px;
+  height: 600px;
 }
 
 .first {
@@ -161,24 +161,24 @@
 
 .card_header {
   position: absolute;
-  text-transform: uppercase;
+  top: 48px;
+  left: 50px;
+  z-index: 2;
+  width: 270px;
+  color: white;
   font-weight: bold;
   font-size: 22px;
-  color: white;
-  left: 50px;
-  top: 48px;
-  width: 270px;
-  z-index: 2;
+  text-transform: uppercase;
 }
 
 .card_text {
   position: absolute;
-  font-size: 20px;
-  z-index: 2;
-  color: white;
-  left: 50px;
   bottom: 50px;
+  left: 50px;
+  z-index: 2;
   width: 260px;
+  color: white;
+  font-size: 20px;
 }
 
 .see_more {
@@ -191,54 +191,54 @@
 
 /* СЕКЦИЯ О ПРОЕКТЕ */
 .about {
-  margin-top: 120px;
   display: grid;
   grid-template-columns: 400px 1fr;
+  margin-top: 120px;
 
 }
 
 .img_logo {
+  align-self: center;
   width: 150px;
   height: 115px;
-  align-self: center;
 }
 
 .logo_white_background {
-  background-color: black;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   width: 240px;
   height: 240px;
-  border-radius: 55%;
-  margin-left: 71px;
   margin-top: 36px;
+  margin-left: 71px;
+  border-radius: 55%;
+  background-color: black;
 }
 
 .about_header {
+  justify-self: start;
   margin-top: 130px;
   margin-right: 40px;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
   text-transform: uppercase;
-  justify-self: start;
 }
 
 .about_text {
-  margin-right:40px;
-  grid-column: 2/3;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  grid-column: 2/3;
   gap: 24px;
   width: 690px;
+  margin-right:40px;
   font-size: 20px;
 }
 
 /* ФУТЕР */
 .footer {
-  margin-top: 181px;
-  height: 140px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 140px;
+  margin-top: 181px;
 }
 
 .footer_basicinfo {
@@ -248,18 +248,18 @@
 .navigation_footer {
   display: flex;
   flex-flow: column;
-  list-style: none;
   justify-self: center;
   align-items: center;
+  list-style: none;
 }
 
 .footer_links {
-  justify-self: center;
-  list-style: none;
-  width: 240px;
   display: flex;
+  justify-self: center;
   gap: 48px;
+  width: 240px;
   margin-left: 50px;
+  list-style: none;
 }
 
 .footer_img {
