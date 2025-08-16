@@ -3,14 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 285px;
+  height: 290px;
 }
 .navigation {
   display: flex;
   list-style-type: circle;
   padding-left: 50px;
   font-size: 18px;
-  gap: 30px;
+  gap: 26px;
 }
 
 .image_header {
@@ -25,16 +25,20 @@
   list-style: none;
   line-height: 24.3px;
   margin-right: 50px;
+  font-size: 18px;
+  line-height: auto;
 }
 
 
-.main_link {
-  list-style-type: none;
+.navig_main_link {
   text-decoration: none;
+  list-style: none;
 }
 
-
-
+.link_far_underline {
+  text-decoration: none;
+  border-bottom: 1.5px solid black;
+}
 
 
 /* ВТОРОЙ ЭКРАН */
@@ -226,7 +230,7 @@
   grid-template-rows: 1fr 1fr;
   gap: 24px;
   width: 690px;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 /* ФУТЕР */
