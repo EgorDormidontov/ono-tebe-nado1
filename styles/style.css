@@ -1,1 +1,262 @@
-/* место для вашего кода */
+/* ЗАГОЛОВОК САЙТА */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 293px;
+}
+.navigation {
+  display: flex;
+  list-style-type: circle;
+  padding-left: 50px;
+  gap: 26px;
+}
+
+.image_header {
+  position: relative;
+  margin-right: 150px;
+  height: 105px;
+  width: 148px;
+}
+
+.basic_info {
+  width:240px;
+  list-style: none;
+  line-height: 24.3px;
+}
+
+
+.main_link {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+
+
+
+/* ВТОРОЙ ЭКРАН */
+
+
+.second_screen_section {
+  position: relative;
+  min-height: 750px;
+}
+
+ .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+} 
+
+.second_screen_background_photo {
+  position: absolute;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.second_screen_text {
+  position: absolute;
+  font-size: 100px;
+  letter-spacing: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  z-index: 2;
+}
+
+.ono {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+.tebe {
+  position: absolute;
+  top: 300px;
+  left: 380.5px;
+}
+.nado {
+  position: absolute;
+  top: 435px;
+  left: 663px;
+}
+
+.text_second_screen_over_betbutton {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 50px;
+  text-transform: uppercase;
+  word-spacing: 27px;
+  top:668px;
+  z-index: 2;
+}
+
+.betbutton {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 256px;
+  height: 51px;
+  text-transform: uppercase;
+  font-size: 22px;
+  top: 650px;
+  left: 790px;
+}
+
+
+/* ГЛАВНАЯ СЕКЦИЯ */
+.main_section_header {
+  font-size: 40px;
+  margin-left: 65px;
+  margin-top: 180px;
+  text-transform: uppercase;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 27px;
+}
+.card {
+  height: 600px;
+  width: 334px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card_conteiner {
+  position: relative;
+  height: 600px;
+  width: 334px;
+}
+
+.first {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.second {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.third {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.card_header {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  left: 40px;
+  top: 48px;
+  width: 270px;
+  z-index: 2;
+}
+
+.card_text {
+  position: absolute;
+  font-size: 20px;
+  z-index: 2;
+  color: white;
+  left: 40px;
+  bottom: 48px;
+  width: 250px;
+}
+
+.see_more {
+  display: block;
+  margin-top: 30px;
+  margin-left: 64px;
+  font-size: 20px;
+}
+
+
+/* СЕКЦИЯ О ПРОЕКТЕ */
+.about {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+
+}
+
+.img_logo {
+  width: 150px;
+  height: 115px;
+  align-self: center;
+}
+
+.logo_white_background {
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin-left: 71px;
+  margin-top: 36px;
+}
+
+.about_header {
+  margin-top: 136px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-self: start;
+}
+
+.about_text {
+  margin-top: 25px;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+  width: 690px;
+  font-size: 20px;  
+}
+
+
+/* ФУТЕР */
+.footer {
+  margin-top: 181px;
+  height: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_basicinfo {
+  margin-left: 51px;
+}
+
+.navigation_footer {
+  display: flex;
+  flex-flow: column;
+  list-style: none;
+  justify-self: center;
+  align-items: center;
+}
+
+.footer_links {
+  justify-self: center;
+  list-style: none;
+  width: 240px;
+  display: flex;
+  gap: 48px;
+}
+
+.footer_img {
+  width: 48px;
+  height: 48px;
+}
