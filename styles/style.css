@@ -3,13 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 280px;
+  height: 285px;
 }
 .navigation {
   display: flex;
   list-style-type: circle;
   padding-left: 50px;
-  gap: 26px;
+  font-size: 18px;
+  gap: 30px;
 }
 
 .image_header {
@@ -23,6 +24,7 @@
   width:240px;
   list-style: none;
   line-height: 24.3px;
+  margin-right: 50px;
 }
 
 
@@ -118,7 +120,7 @@
 .main_section_header {
   font-size: 40px;
   margin-left: 65px;
-  margin-top: 180px;
+  margin-top: 190px;
   text-transform: uppercase;
 }
 
